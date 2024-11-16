@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fondo"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titulologin"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="Bienvenido"
+        android:textColor="#404040"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:inputType="text"
+        android:textColorHint="#6D6D6D"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#6D6D6D"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/registrocuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="¿No tienes una cuenta? Regístrate"
+        android:textColor="#404040"
+        android:textSize="14sp"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/olvidarcontra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="¿Se te ha olvidado la contraseña?"
+        android:textColor="#404040"
+        android:textSize="12sp"
+        android:clickable="true" />
+</LinearLayout>

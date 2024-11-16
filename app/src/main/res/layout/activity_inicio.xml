@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo2"
+    android:padding="8dp"
+    android:id="@+id/inicio">
+
+    <TextView
+        android:id="@+id/AppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a Nuestra Tienda de Productos Médicos"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/AppDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explora nuestra selección de productos médicos de alta calidad para todas tus necesidades de cuidado y recuperación."
+        android:textSize="16sp"
+        android:textColor="#757575"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <ImageView
+        android:id="@+id/soloq"
+        android:layout_width="264dp"
+        android:layout_height="162dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="Imagen"
+        android:src="@drawable/soloq" />
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/btnVerCarrito"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Ver Carrito"
+                android:backgroundTint="#ff0000"
+                android:onClick="verCarrito" />
+
+            <!-- ListView para mostrar los productos -->
+        <ListView
+            android:id="@+id/listViewProductos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+</LinearLayout>

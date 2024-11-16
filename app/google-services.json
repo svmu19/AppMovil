@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "619223788870",
+    "firebase_url": "https://proyecto-39fcf-default-rtdb.firebaseio.com",
+    "project_id": "proyecto-39fcf",
+    "storage_bucket": "proyecto-39fcf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619223788870:android:7c59612c4a5d858c67c947",
+        "android_client_info": {
+          "package_name": "com.example.intento8"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP_9F0xUuUnyWRohpPr9hLQehvQqibKZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
